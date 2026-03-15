@@ -1685,45 +1685,15 @@
     <!-- event-expertise-section - end
 		================================================== -->
 
-    <div>
-      <p class="d-inline-flex gap-1">
-        <a
-          class="btn btn-primary"
-          data-bs-toggle="collapse"
-          href="#collapseExample"
-          role="button"
-          aria-expanded="false"
-          aria-controls="collapseExample">
-          Link with href
-        </a>
-        <button
-          class="btn btn-primary"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#collapseExample"
-          aria-expanded="false"
-          aria-controls="collapseExample">
-          Button with data-bs-target
-        </button>
-      </p>
-      <div class="collapse" id="collapseExample">
-        <div class="card card-body">
-          Some placeholder content for the collapse component. This panel is
-          hidden by default but revealed when the user activates the relevant
-          trigger.
-        </div>
-      </div>
-    </div>
-
     <!-- news-update-section - start
 		================================================== -->
     <section
       id="news-update-section"
       class="news-update-section sec-ptb-100 clearfix">
-      <div class="container-fluid">
+      <div class="container-xl">
         <div class="row">
           <!-- faq-accordion - start -->
-          <div class="col-lg-6 col-md-12 col-sm-auto">
+          <div class="col-lg-6 col-md-12 col-sm-12">
             <!-- section-title - start -->
             <div class="section-title mb-30">
               <span class="line-style"></span>
@@ -1736,7 +1706,7 @@
               <div class="card">
                 <div class="card-header" id="headingone">
                   <button
-                    class="btn collapsed"
+                    class="btn collapsed text-wrap text-start"
                     data-toggle="collapse"
                     data-target="#collapseone"
                     aria-expanded="true"
@@ -1765,7 +1735,7 @@
               <div class="card">
                 <div class="card-header" id="headingtwo">
                   <button
-                    class="btn"
+                    class="btn text-wrap text-start"
                     data-toggle="collapse"
                     data-target="#collapsetwo"
                     aria-expanded="false"
@@ -1793,7 +1763,7 @@
               <div class="card">
                 <div class="card-header" id="headingthree">
                   <button
-                    class="btn collapsed"
+                    class="btn collapsed text-wrap text-start"
                     data-toggle="collapse"
                     data-target="#collapsethree"
                     aria-expanded="false"
@@ -1820,7 +1790,7 @@
               <div class="card">
                 <div class="card-header" id="headingfour">
                   <button
-                    class="btn collapsed"
+                    class="btn collapsed text-wrap text-start"
                     data-toggle="collapse"
                     data-target="#collapsefour"
                     aria-expanded="false"
@@ -1847,7 +1817,7 @@
               <div class="card">
                 <div class="card-header" id="headingfive">
                   <button
-                    class="btn collapsed"
+                    class="btn collapsed text-wrap text-start"
                     data-toggle="collapse"
                     data-target="#collapsefive"
                     aria-expanded="false"
@@ -1872,7 +1842,7 @@
               <div class="card">
                 <div class="card-header" id="headingsix">
                   <button
-                    class="btn collapsed"
+                    class="btn collapsed text-wrap text-start"
                     data-toggle="collapse"
                     data-target="#collapsesix"
                     aria-expanded="false"
@@ -1899,7 +1869,7 @@
               <div class="card">
                 <div class="card-header" id="headingseven">
                   <button
-                    class="btn collapsed"
+                    class="btn collapsed text-wrap text-start"
                     data-toggle="collapse"
                     data-target="#collapseseven"
                     aria-expanded="false"
@@ -1925,7 +1895,7 @@
               <div class="card">
                 <div class="card-header" id="headingeight">
                   <button
-                    class="btn collapsed"
+                    class="btn collapsed text-wrap text-start"
                     data-toggle="collapse"
                     data-target="#collapseeight"
                     aria-expanded="false"
@@ -1951,7 +1921,7 @@
               <div class="card">
                 <div class="card-header" id="headingnine">
                   <button
-                    class="btn collapsed"
+                    class="btn collapsed text-wrap text-start"
                     data-toggle="collapse"
                     data-target="#collapsenine"
                     aria-expanded="false"
@@ -1977,7 +1947,7 @@
               <div class="card">
                 <div class="card-header" id="headingten">
                   <button
-                    class="btn collapsed"
+                    class="btn collapsed text-wrap text-start"
                     data-toggle="collapse"
                     data-target="#collapseten"
                     aria-expanded="false"
@@ -2442,76 +2412,62 @@
             </div>
             <!-- about-wrapper - end -->
 
-            <!-- basic-info - start -->
             <div class="col-lg-12 col-md-12 col-sm-12 gap-1">
-              <div class="basic-info clearfix">
-                <div class="row gap-1">
-                  <!-- basic-info-item - start -->
-                  <div class="col-lg-6 col-sm-12">
-                    <div class="basic-info-item">
-                      <span class="icon">
-                        <i class="fas fa-map-marker-alt"></i>
-                      </span>
-                      <div class="info-content">
-                        <p>Indira nagar,</p>
-                        <h3>Bangalore</h3>
+              <div class="">
+                <div class="basic-info clearfix">
+                  <div class="row g-0">
+                    <div class="col">
+                      <div class="basic-info-item">
+                        <span class="icon">
+                          <i class="fas fa-map-marker-alt"></i>
+                        </span>
+                        <div class="info-content">
+                          <p>Location</p>
+                          <h3>Indira nagar, Bangalore</h3>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="basic-info-item">
+                        <span class="icon">
+                          <i class="fas fa-envelope"></i>
+                        </span>
+                        <div class="info-content">
+                          <p>Mail us at</p>
+                          <h3>
+                            <a href="mailto:sungroup.bangalore@gmail.com"
+                              >sungroup.bangalore@gmail.com</a
+                            >
+                          </h3>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="basic-info-item">
+                        <span class="icon">
+                          <i class="fas fa-phone"></i>
+                        </span>
+                        <div class="info-content">
+                          <p>Call us at</p>
+                          <h3><a href="tel:98457 32329">98457 32329</a></h3>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="basic-info-item">
+                        <span class="icon">
+                          <i class="fas fa-phone"></i>
+                        </span>
+                        <div class="info-content">
+                          <p>Call us at</p>
+                          <h3><a href="tel:97399 32329">97399 32329</a></h3>
+                        </div>
                       </div>
                     </div>
                   </div>
-                  <!-- basic-info-item - end -->
-
-                  <!-- basic-info-item - start -->
-                  <div class="col-lg-6 col-sm-12">
-                    <div class="basic-info-item">
-                      <span class="icon">
-                        <i class="fas fa-envelope"></i>
-                      </span>
-                      <div class="info-content">
-                        <p>
-                          <a href="mailto:sungroup.bangalore@gmail.com"
-                            >sungroup.bangalore@gmail.com</a
-                          >
-                        </p>
-                        <h3>
-                          <a href="mailto:sungroup.bangalore@gmail.com"
-                            >sungroup.bangalore@gmail.com</a
-                          >
-                        </h3>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- basic-info-item - end -->
-
-                  <!-- basic-info-item - start -->
-                  <div class="col-lg-6 col-sm-12">
-                    <div class="basic-info-item">
-                      <span class="icon">
-                        <i class="fas fa-phone"></i>
-                      </span>
-                      <div class="info-content">
-                        <p><a href="tel:98457 32329">98457 32329</a></p>
-                        <h3><a href="tel:98457 32329">98457 32329</a></h3>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- basic-info-item - end -->
-                  <!-- basic-info-item - start -->
-                  <div class="col-lg-6 col-sm-12">
-                    <div class="basic-info-item">
-                      <span class="icon">
-                        <i class="fas fa-phone"></i>
-                      </span>
-                      <div class="info-content">
-                        <p><a href="tel:97399 32329">97399 32329</a></p>
-                        <h3><a href="tel:97399 32329">97399 32329</a></h3>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- basic-info-item - end -->
                 </div>
               </div>
             </div>
-            <!-- basic-info - end -->
           </div>
         </div>
       </div>
