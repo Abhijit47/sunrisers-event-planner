@@ -39,8 +39,15 @@
   // preloader - start
   // --------------------------------------------------
   $(window).on('load', function () {
-    $('#preloader').fadeOut('slow', function () {
+    // $('#preloader').fadeOut('slow', function () {
+    //   // $(this).remove();
+    //   // for testing purpose only
+    //   $(this).show();
+    // });
+    $('.loader-container').fadeOut('slow', function () {
       $(this).remove();
+      // for testing purpose only
+      // $(this).show();
     });
   });
   // preloader - end
